@@ -102,6 +102,9 @@ const AboutTeamSection = () => {
           <a className={styles.github} href="https://github.com/Wais000/hopetohands" target="_blank">
           https://github.com/Wais000/hopetohands
           </a>
+          <a className={styles.github} href="https://github.com/Wais000/hopetohands" target="_blank">
+          https://github.com/Wais000/hopetohands
+          </a>
         </p>
  
       </div>
