@@ -1,0 +1,393 @@
+.imgSeekerFormIcon {
+  position: relative;
+  border-radius: 12px 0 0 12px;
+  width: 320px;
+  height: 314px;
+  flex-shrink: 0;
+  padding-bottom: 1%;
+  object-fit: cover;
+}
+/* .ImgDiv{
+  width: 500px;
+  border-radius: 12px 0 0 12px;
+
+  flex-shrink: 0;
+  object-fit: cover;
+
+
+} */
+.whatAreYouLookingFor {
+  margin: 0;
+  font-weight: 600;
+  position: relative;
+  font-size: 20px;
+  font-family: Montserrat;
+  color: #484848;
+  text-align: left;
+  display: inline-block;
+}
+.inputFormControl {
+  position: relative;
+  background-color: white;
+  border-radius: 12px 12px 12px 12px;
+  height: 55px;
+}
+.frameDiv1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 41px;
+}
+.logoTitleB {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: -6px;
+  left: 3px;
+  font-size: 13px;
+  display: inline-block;
+  font-family: Montserrat;
+  color: #342E37;
+  text-align: center;
+  height: 18.26px;
+  
+}
+.logoMainIcon {
+  position: absolute;
+  top: 0;
+  left: 14.78px;
+  width: 62.61px;
+  height: 72.17px;
+  overflow: hidden;
+  
+}
+.logoDiv {
+  position: relative;
+  width: 92.17px;
+  height: 80px;
+  flex-shrink: 0;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 94px;
+}
+.formRegistrationBgArticle,
+.profileSectionForm {
+  height: 314px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.formRegistrationBgArticle {
+  flex: 1;
+  border-radius: 0 12px 12px 0;
+  background-color: #EAD49C;
+  flex-direction: column;
+  padding: 77px 61px;
+  box-sizing: border-box;
+  align-items: center;
+}
+.profileSectionForm {
+  border-radius: 0 0 0 12px;
+  box-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+  width: 942px;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: flex-start;
+
+}
+.formContainer{
+  width: 100%;
+  /* border: 2px solid blueviolet; */
+}
+.profileSectionForm{
+  margin: 0 auto;
+}
+.accommodationDiv{
+  width: 100%;
+
+}
+.accommodationCont{
+
+  width: 60%;
+
+  margin: 30px auto;
+}
+.accommodationDetails{
+  font-family: Montserrat;
+  font-size: 18px;
+  padding: 20px;
+  
+  flex-wrap: wrap;
+  
+  width: 100%;
+}
+img{
+  width: 400px;
+  margin: 5px;
+ 
+}
+.acInfo{
+  width: 25%;
+}
+.acInfo p{
+  font-weight: 500;
+}
+.acInfo p span{
+  font-style: italic-
+  ;
+}
+.accommodationMainContainer{
+  /* background-color: #ead49c; */
+  /* box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.195); */
+  margin: 10px auto;
+  width: 80%;
+
+
+  border: none;
+  padding-bottom: 30px;
+ 
+  border-bottom: 4px solid #342E37 ; 
+  border-style: none none dotted none;
+}
+
+.ImgContainer{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1.5%;
+ justify-content: center;
+ /* border: 2px solid red; */
+}
+
+.ImgDiv{
+  width: 32%;
+
+  /* margin-left: 9px; */
+  background-color: #484848;
+  border-radius: 8px;
+ 
+}
+
+.Container
+{
+  background-color: #fdf4dd;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #f5eacd; */
+  /* border: 2px solid rebeccapurple; */
+  margin-bottom: 30px;
+  width: 90%;
+  border-radius: 8px;
+  margin: 40px auto;
+  box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.195);
+  padding: 30px;
+}
+.detailsContainer
+{
+  /* border: 2px solid rgb(18, 175, 52); */
+  display: flex;
+  background-color: #ead49c;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 15px;
+  /* justify-content: center; */
+  /* padding-left: 80px; */
+  gap: 25px;
+ 
+  
+}
+.contactPersonDetails,
+.Details,
+.contactPersonDetails,
+.Available
+
+{
+  font-size: 13px;
+  font-family: Montserrat;
+  width: 31%;
+  padding-left: 20px;
+  text-align: left;
+
+}
+.jobPersonsNumber,
+.HelpInput,
+.accommodationInput,
+.contactPersonName,
+.contactNumber,
+.contactPersonEmail,
+.accommodationSelect,
+.accommodationStreet,
+.accommodationStreetDate,
+.accommodationStreetEnd,
+.availableForm{
+width: 32.7%;
+font-size: 13px; 
+padding: 10px;
+
+
+}
+
+.title{
+  font-family: Montserrat;
+  text-align: center;
+  color: #494849;
+  
+}
+.detailsContainer p{
+  font-size: 15px;
+  font-weight: 500;
+}
+.detailsContainer p span{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.title{
+  margin-top: 3%;
+}
+.icons{
+font-size: 40px;
+/* border: 2px solid red; */
+/* background-color:#fff;; */
+color: wheat;
+font-style: unset;
+}
+.subMenu,
+.title{
+  font-family: Montserrat;
+  /* border: 2px solid red; */
+  color: #342E37;
+
+}
+.submitButtonDiv {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  border-radius: 30px;
+  background-color: #908db9;
+  width: 110px;
+  height: 40px;
+  /* border: 3px solid red; */
+}
+.submitDiv {
+  position: absolute;
+  top: calc(50% - 14px);
+  left: calc(50% - 38px);
+  font-size: 13px;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  width: 64px;
+  height: 24px;
+}
+/* .conteiner_img{
+  position: absolute;
+  bottom: 80px;
+} */
+
+.submitBtnButton {
+ justify-content: center;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 150px;
+  height: 60px;
+  flex-shrink: 0;
+  overflow: hidden;
+/* border: 6px solid green; */
+  margin-top: 20px;
+
+}
+.accommodationSelectDiv{
+  font-size: 14px;
+ margin-top: 20px;
+ margin-bottom: 30px;
+/* border: 2px solid red; */
+}
+.formButton{
+  font-weight: 600;
+  padding: 13px 20px 13px 20px;
+  border-radius: 30px;
+  background-color: #908db9;
+  border: none;
+  color: white;
+}
+
+.submitBtnButton,
+.buttonDiv{
+  /* border: 2px solid red; */
+}
+
+.logoMainButton:hover,
+.submitBtnButton:hover {
+  animation: 1s ease 0s 1 normal none wobble-hor-bottom;
+  opacity: 1;
+}
+@keyframes wobble-hor-bottom {
+  0%,
+  to {
+    transform: translateX(0);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+
+/* .bottomDelete{
+  position: relative;
+
+
+} */
+/* .submitDiv{
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+
+} */
+
+
+@media screen and (max-width: 1200px) {
+
+
+  .Details,
+  .contactPersonDetails,
+  .Available {
+   width: 70%;
+  }
+  .detailsContainer{
+    width:100%;
+  }
+
+
+}
+
+
+@media screen and (max-width: 992px) {
+  .formRegistrationBgArticle{
+    width:80%;
+  }
+}
+
+

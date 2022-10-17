@@ -1,0 +1,349 @@
+.theWebDeveloperTeamBehind,
+.whatToDo {
+  margin-top: 3%;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.whatToDo {
+  margin-top: 5%;
+}
+
+.teamIcon {
+  position: relative;
+  width: 163px;
+  flex-shrink: 0;
+  object-fit: cover;
+  height: 163px;
+}
+
+.visitOurTeamOrganizationAt {
+  margin: 0;
+  position: relative;
+  line-height: 82px;
+  font-weight: 500;
+  display: inline-block;
+  font-family: Montserrat;
+  font-size: 21px;
+}
+.qRh2hIcon {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.infoDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 38px;
+  text-align: left;
+  color: #908db9;
+  font-family: "DM Sans";
+}
+.aboutTeamSection {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #706b5d;
+  font-family: Montserrat;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  margin-bottom: 7%;
+}
+
+.teamBoxes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  /* border: 2px solid red; */
+}
+.teams {
+  padding-top: 3%;
+  padding-bottom: 5%;
+  width: 100%;
+  background: rgb(242, 241, 207);
+  background: linear-gradient(
+    207deg,
+    rgba(242, 241, 207, 1) 0%,
+    rgba(245, 234, 205, 1) 47%,
+    rgba(234, 212, 156, 1) 100%
+  );
+}
+
+.details {
+  width: 90%;
+  margin: 0 auto;
+}
+.title {
+  padding-top: 2%;
+  font-size: 21px;
+  font-weight: 600;
+}
+.AboutText,
+.formHeader,
+.text {
+  margin: 0;
+  padding: 1%;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.AboutText {
+  line-height: 2em;
+  font-weight: 600;
+
+}
+.github {
+
+  color: #342e37;
+}
+
+
+/* contact form */
+
+.contactForm2 {
+  margin: 0% auto;
+  position: relative;
+  border-radius: 10px;
+  background-color: #f5eacd;
+  box-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+  flex-shrink: 0;
+  flex-shrink: 0;
+  padding: 4% 0 3% 0;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: center;
+  display: flex;
+
+  box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.195);
+}
+.formHeader{
+  width: 50%;
+ color: #ffffff;
+  /* height: 80px; */
+  background: #908DB9 ;
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin: 8% auto;
+  padding: 2.2%;
+  margin-bottom: 3%;
+}
+
+.formHeader:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid #908DB9;
+  border-bottom: 13px solid transparent;
+}
+.contactRight,
+.contactRight2,
+.contactLeft,
+.contactLeft2, 
+.contactLeft3 {
+  width: 400px;
+  font-size: 16px;
+  /* font-weight: 500; */
+}
+
+.contactRight2,
+.contactLeft2 {
+  height: 400px;
+}
+.contactRight2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.mainLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  justify-content: flex-end;
+  gap: 35px;
+  height: 100%;
+}
+.vectorIcon {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  flex-shrink: 0;
+  width: 170px;
+}
+.vectorIcon:hover {
+  animation: 1s ease 0s 1 normal none wobble-hor-bottom;
+  cursor: pointer;
+}
+
+@keyframes wobble-hor-bottom {
+  0%,
+  to {
+    transform: translateX(0);
+    transform-origin: 50% 50%;
+    opacity: 6;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+    opacity: 6;
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+    opacity: 6;
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+    opacity: 6;
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+    opacity: 6;
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+    opacity: 6;
+  }
+}
+.logoTitleB {
+  font-size: 13px;
+  display: inline-block;
+  font-family: Montserrat;
+  color: #342e37;
+  text-align: center;
+  height: 35.35px;
+}
+.inputComponent,
+.inputComponentTextarea {
+  border: 1px solid #d9d7d7;
+  background-color: #ffffff;
+  border-radius: 8px;
+  /* box-shadow: 0 0 8px #e5e5e5; */
+  width: 90%;
+  padding: 15px;
+  margin-top: 4%;
+}
+.inputComponentTextarea {
+  margin-top: 10%;
+  height: 70%;
+}
+.formTitle {
+  width: 100%;
+  margin-bottom: 3%;
+  font-weight: 600;
+  font-family: Montserrat;
+  font-size: 25px;
+}
+
+
+.mainLogo:hover,
+.submitBtnButton:hover {
+  animation: 1s ease 0s 1 normal none wobble-hor-bottom;
+  opacity: 1;
+}
+
+.submitBtnButton{
+  color: white;
+  margin-top: 0px;
+  padding: 8px 20px 8px 20px;
+  /* width: 100px; */
+  font-size: 13px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  background-color: #908db9;
+  font-size: 18px;
+  font-weight: 500;
+}
+@media screen and (min-width: 1200px) {
+  .teams {
+    width: 20%;
+    margin: 0 auto;
+  }
+  .teamBoxes {
+    margin: 2% auto;
+    width: 85%;
+  }
+  .teamIcon{
+    position: relative;
+  width: 140px;
+  flex-shrink: 0;
+  object-fit: cover;
+  height: 140px;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  .teams {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .teamBoxes {
+    margin: 2% auto;
+  }
+
+
+}
+
+@media screen and (min-width: 600) {
+  .teams {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .teamBoxes {
+    margin: 2% auto;
+  }
+  .teamIcon{
+    position: relative;
+    width: 70px;
+    flex-shrink: 0;
+    object-fit: cover;
+    height:70px;
+  }
+}
+
+
+@media screen and (max-width: 500) {
+  .teams {
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid red;
+  }
+  .teamBoxes {
+    margin: 2% auto;
+    width: 100%;
+  }
+  .teamIcon{
+    position: relative;
+    width: 70px;
+    flex-shrink: 0;
+    object-fit: cover;
+    height:70px;
+
+  }
+}

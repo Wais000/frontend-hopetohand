@@ -1,0 +1,18 @@
+.aboutUsPageMain {
+  position: relative;
+  border-radius: 20px;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* border: 2px solid red; */
+}
+
+.legalInfo,
+.aboutTeam,
+.whatToDo{
+  width: 70%;
+  /* border: 2px solid red; */
+}
