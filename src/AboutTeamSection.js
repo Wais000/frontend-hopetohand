@@ -101,7 +101,7 @@ const AboutTeamSection = () => {
           find the hopetohand's Repository:  
           <a className={styles.github} href="https://github.com/Wais000/frontend-hopetohand" target="_blank">
           Frontend
-          </a>
+          <span> / </span>
           <br/>
           <a className={styles.github} href="https://github.com/Wais000/backend-hopetohand" target="_blank">
           Backend
