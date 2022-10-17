@@ -99,11 +99,11 @@ const AboutTeamSection = () => {
       <div className={styles.infoDiv}>
         <p className={styles.visitOurTeamOrganizationAt}>
           find the hopetohand's Repository:  
-          <a className={styles.github} href="https://github.com/Wais000/hopetohands" target="_blank">
-          https://github.com/Wais000/hopetohands
+          <a className={styles.github} href="https://github.com/Wais000/frontend-hopetohand" target="_blank">
+          Frontend
           </a>
-          <a className={styles.github} href="https://github.com/Wais000/hopetohands" target="_blank">
-          https://github.com/Wais000/hopetohands
+          <a className={styles.github} href="https://github.com/Wais000/backend-hopetohand" target="_blank">
+          Backend
           </a>
         </p>
  
