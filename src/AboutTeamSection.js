@@ -20,7 +20,7 @@ const AboutTeamSection = () => {
   const postRequestHandler = async () => {
     const data = { name, phoneNumber, companyName, email, message };
     console.log(data);
-    await axios.post("http://localhost:5000/contactform", data);
+    await axios.post("https://vast-oasis-87088.herokuapp.com/contactform", data);
     setName("");
     setPhoneNumber("");
     setCompanyName("");

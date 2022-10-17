@@ -8,7 +8,7 @@ const GetUserPostHelp = () => {
   const [editMood, setEditMood] = useState(false);
   const [editHelp, setEditHelp] = useState(null);
 
-  const API = axios.create({ baseURL: "http://localhost:5000" });
+  const API = axios.create({ baseURL: "https://vast-oasis-87088.herokuapp.com" });
 
   API.interceptors.request.use((req) => {
     if (localStorage.getItem("profile")) {
@@ -63,7 +63,7 @@ const GetUserPostHelp = () => {
 
     try {
       const response = await fetch(
-        `http://localhost:5000/updatehelp/${editHelp._id}`,
+        `https://vast-oasis-87088.herokuapp.com/updatehelp/${editHelp._id}`,
         {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },

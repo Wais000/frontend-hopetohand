@@ -9,7 +9,7 @@ const GetUserPostJob = () => {
   const [editMood, setEditMood] = useState(false);
   const [editJob, setEditJob] = useState(null);
 
-  const API = axios.create({ baseURL: "http://localhost:5000" });
+  const API = axios.create({ baseURL: "https://vast-oasis-87088.herokuapp.com" });
 
   API.interceptors.request.use((req) => {
     if (localStorage.getItem("profile")) {
@@ -63,7 +63,7 @@ const GetUserPostJob = () => {
 
     try {
       const response = await fetch(
-        `http://localhost:5000/updatejob/${editJob._id}`,
+        `https://vast-oasis-87088.herokuapp.com/updatejob/${editJob._id}`,
         {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },
