@@ -8,7 +8,7 @@ const GetUserPostHelp = () => {
   const [editMood, setEditMood] = useState(false);
   const [editHelp, setEditHelp] = useState(null);
 
-  const API = axios.create({ baseURL: "https://hopetohand-server.herokuapp.com/" });
+  const API = axios.create({ baseURL: "https://hopetohand-server.herokuapp.com" });
 
   API.interceptors.request.use((req) => {
     if (localStorage.getItem("profile")) {
@@ -63,7 +63,7 @@ const GetUserPostHelp = () => {
 
     try {
       const response = await fetch(
-        `https://hopetohand-server.herokuapp.com//updatehelp/${editHelp._id}`,
+        `https://hopetohand-server.herokuapp.com/updatehelp/${editHelp._id}`,
         {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },

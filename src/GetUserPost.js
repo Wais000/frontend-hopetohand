@@ -8,7 +8,7 @@ const GetUserPost = () => {
   const [editMood, setEditMood] = useState(false);
   const [editAccommodation, setEditAccommodation] = useState(null);
 
-  const API = axios.create({ baseURL: "https://hopetohand-server.herokuapp.com/" });
+  const API = axios.create({ baseURL: "https://hopetohand-server.herokuapp.com" });
 
   API.interceptors.request.use((req) => {
     if (localStorage.getItem("profile")) {
@@ -64,7 +64,7 @@ const GetUserPost = () => {
 
     try {
       const response = await fetch(
-        `https://hopetohand-server.herokuapp.com//updateaccomodation/${editAccommodation._id}`,
+        `https://hopetohand-server.herokuapp.com/updateaccomodation/${editAccommodation._id}`,
         {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },
