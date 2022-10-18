@@ -27,21 +27,21 @@ export const ProfileSection = () => {
 
 
   const getRequestHandler = async () => {
-    const response = await axios.get("https://hopetohand-server.herokuapp.comgetaccomodations");
+    const response = await axios.get("https://hopetohand-server.herokuapp.com/getaccomodations");
     console.log(response.data.data);
     setDetails(response.data.data);
     setRequest("GET");
   };
 
   const getRequestHandlerHelp = async () => {
-    const response = await axios.get("https://hopetohand-server.herokuapp.comgethelper");
+    const response = await axios.get("https://hopetohand-server.herokuapp.com/gethelper");
     console.log(response.data.data);
     setDetailsHelp(response.data.data);
     setRequest("GET");
   };
 
   const getRequestHandlerJob = async () => {
-    const response = await axios.get("https://hopetohand-server.herokuapp.comgetjob");
+    const response = await axios.get("https://hopetohand-server.herokuapp.com/getjob");
     console.log(response.data.data);
     setDetailsJob(response.data.data);
     setRequest("GET");
