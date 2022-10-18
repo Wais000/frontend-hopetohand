@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
- const API = axios.create({ baseURL: "https://vast-oasis-87088.herokuapp.com" });
+ const API = axios.create({ baseURL: "https://hopetohand-server.herokuapp.com/" });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem("profile")) {
