@@ -9,7 +9,7 @@ const GetUserPostJob = () => {
   const [editMood, setEditMood] = useState(false);
   const [editJob, setEditJob] = useState(null);
 
-  const API = axios.create({ baseURL: "https://hopetohand-server.herokuapp.com/" });
+  const API = axios.create({ baseURL: "https://hopetohand-server.herokuapp.com" });
 
   API.interceptors.request.use((req) => {
     if (localStorage.getItem("profile")) {
