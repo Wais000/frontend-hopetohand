@@ -63,7 +63,7 @@ const GetUserPostJob = () => {
 
     try {
       const response = await fetch(
-        `https://hopetohand-server.herokuapp.com/updatejob/${editJob._id}`,
+        `https://hopetohand-server.herokuapp.comupdatejob/${editJob._id}`,
         {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },
