@@ -21,7 +21,7 @@ export const ContactFormSection = () => {
 
    const data = {name, phoneNumber, companyName, email, message}
    console.log(data)
-   await axios.post("https://hopetohand-server.herokuapp.comcontactform", data)
+   await axios.post("https://hopetohand-server.herokuapp/comcontactform", data)
    setName("");
    setPhoneNumber("");
     setCompanyName("");
