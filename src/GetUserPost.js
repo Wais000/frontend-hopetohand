@@ -64,7 +64,7 @@ const GetUserPost = () => {
 
     try {
       const response = await fetch(
-        `https://hopetohand-server.herokuapp.comupdateaccomodation/${editAccommodation._id}`,
+        `https://hopetohand-server.herokuapp.com/updateaccomodation/${editAccommodation._id}`,
         {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },

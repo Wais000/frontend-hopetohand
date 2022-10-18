@@ -63,7 +63,7 @@ const GetUserPostHelp = () => {
 
     try {
       const response = await fetch(
-        `https://hopetohand-server.herokuapp.comupdatehelp/${editHelp._id}`,
+        `https://hopetohand-server.herokuapp.com/updatehelp/${editHelp._id}`,
         {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },
