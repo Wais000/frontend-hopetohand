@@ -160,7 +160,7 @@ export const VolunteerSection = () => {
       endDateJob,
     };
 
-    const API = axios.create({ baseURL: "https://hopetohand-server.herokuapp.com" });
+    const API = axios.create({ baseURL: "https://hopetohand-server.herokuapp.com/" });
 
     API.interceptors.request.use((req) => {
       if (localStorage.getItem("profile")) {
