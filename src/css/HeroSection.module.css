@@ -106,7 +106,7 @@
   font-family: Montserrat;
   display: flex;
   width: 100%;
-  border: 2px solid rgb(111, 255, 0);
+  /* border: 2px solid rgb(111, 255, 0); */
   margin: 0 auto;
 }
 .searchOptionsDiv{
@@ -176,13 +176,14 @@ align-content: center;
     flex-direction: column;
   }
   .heroSection{width: 100%;
-  border: 3px solid red;}
+  /* border: 3px solid red; */
+}
 }
 @media screen and (max-width: 768px) {
 
   .frameDiv {
     flex-direction: column;
-    border: 2px solid darkgreen;
+    /* border: 2px solid darkgreen; */
   } 
   .hOPE2HANDBERLINH1 p{
     font-weight: 800;
