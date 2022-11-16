@@ -9,16 +9,19 @@
 }
 .hOPE2HANDBERLINH1 {
   /* margin: 20px; */
-  font-weight: 800;
+
   position: relative;
   font-size: inherit;
   font-family: inherit;
   display: inline-block;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   mix-blend-mode: hard-light;
-  border: 2px solid darkblue;
+  /* border: 2px solid darkblue; */
 }
-
+.hOPE2HANDBERLINH1 p{
+  font-weight: 800;
+  font-size: 100%;
+}
 .fINDButton {
   font-weight: 700;
   position: relative;
@@ -97,20 +100,14 @@
  {
   align-items: center;
   justify-content: center;
-  
-  gap: 14px;
   text-align: left;
-  font-size: 16px;
+  font-size:50%;
   color: #f5f3ed;
   font-family: Montserrat;
-/* vertical-align: middle; */
   display: flex;
-  /* flex-direction: row; */
-  /* align-items: flex-start; */
-  /* justify-content: flex-start; */
-  gap: 50px;
-  width: 60%;
-  /* border: 2px solid red; */
+  width: 100%;
+  border: 2px solid rgb(111, 255, 0);
+  margin: 0 auto;
 }
 .searchOptionsDiv{
   width: 70%;
@@ -178,21 +175,24 @@ align-content: center;
   .searchHeadersArticle {
     flex-direction: column;
   }
-  .heroSection{width: 100%;}
+  .heroSection{width: 100%;
+  border: 3px solid red;}
 }
-@media screen and (min-width: 768px) {
-  .hOPE2HANDBERLINH1 {
-    font-size: 180%;
-  }
+@media screen and (max-width: 768px) {
+
   .frameDiv {
     flex-direction: column;
+    border: 2px solid darkgreen;
   } 
-
+  .hOPE2HANDBERLINH1 p{
+    font-weight: 800;
+    font-size: 70%;
 }
-@media screen and (min-width: 428px) {
-  .hOPE2HANDBERLINH1 {
-    font-size: 40px;
-  }
-
+.searchHeadersArticle li a{
+  display: none;
+}
+.searchHeadersArticle li span{
+  font-size: 24px;
+}
  
-}
+} 

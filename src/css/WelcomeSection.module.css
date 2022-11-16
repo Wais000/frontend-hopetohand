@@ -23,6 +23,17 @@
 .welcomeP {
   margin-block-start: 0;
   margin-block-end: 0;
+  padding-bottom: 10%;
+  /* border: 2px solid green; */
+}
+.welcomeH1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-bottom: 1%;
+  padding-top: 5%;
+  /* border: 2px solid green; */
+  text-align: center;
+  width: 100%;
 }
 .registerHereP {
   margin: 0;
@@ -44,6 +55,8 @@
   align-self: stretch;
   position: relative;
   display: inline-block;
+  /* border: 3px solid red; */
+  padding-bottom: 10%;
 }
 .becomeAVolunteer {
   position: relative;
@@ -56,52 +69,42 @@
 .button {
   cursor: pointer;
   border: 0;
-  padding: 21px 29px;
+  padding: 5% 3%;
   background-color: #908db9;
   border-radius: 40px;
-  width: 220px;
+  width: 190px;
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
+  margin: auto;
 }
 .button1:hover,
 .button:hover {
   animation: 1s ease 0s 1 normal none wobble-hor-bottom;
   opacity: 1;
 }
-.becomeVolunteerFrameArticle,
-.cardBecomeVolunteerArticle {
-  box-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: flex-start;
+.becomeVolunteerFrameArticle {
+  width: 40%;
+  background: #0000;
   font-family: Montserrat;
+  padding-bottom: 5%;
 }
 .cardBecomeVolunteerArticle {
-  align-self: stretch;
   border-radius: 12px;
   background-color: #ead49c;
-  padding: 72px 40px 20px;
+  padding: 7% 5% 8% 5%;
   gap: 48px;
   text-align: left;
   font-size: 16px;
-  color: #342e37;
+  width: 70%;
+  margin: 0 auto;
 }
 .becomeVolunteerFrameArticle {
   border-radius: 10px;
   background-color: #f5eacd;
-  width: 600px;
-  flex-shrink: 0;
-  padding: 143px 108px 188px 82px;
-  /* gap: 136px; */
-  text-align: center;
-  font-size: 50px;
   color: #4c4446;
-  /* margin: 10px; */
 }
 .descriptionDiv {
   font-weight: 500;
@@ -110,14 +113,22 @@
 .descriptionDiv1 {
   position: relative;
   display: inline-block;
-  width: 358px;
+  width: 90%;
+  /* border: 3px solid red; */
+  margin: auto;
+  padding-top: 4%;
 }
 .frameDiv {
   display: flex;
   flex-direction: column;
+  border-radius: 15px;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 30px;
+  gap: 20px;
+  background-color: #f5eacdcf;
+  width: 70%;
+
+  margin-bottom: 18%;
 }
 .button1 {
   cursor: pointer;
@@ -128,70 +139,103 @@
   width: 220px;
   flex-direction: row;
   justify-content: center;
-}
-.button1,
-.getHelpFrameArticle,
-.welcomeSection {
   display: flex;
   box-sizing: border-box;
   align-items: center;
 }
+
 .getHelpFrameArticle {
-  flex: 1;
-  border-radius: 10px;
+  display: flex;
   flex-direction: column;
-  padding: 97px 78px 104px;
-  justify-content: flex-start;
-  gap: 393px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  /* gap: 25%; */
+  width: 40%;
+}
+.getHelpFrameArticle {
   background-image: url(../../public/gethelpframe@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
+  padding-top: 1%;
+  /* border: 2px solid red; */
+}
+.welcomeSection {
+  margin: 2% auto;
+  flex-direction: column;
+  box-sizing: border-box;
+  gap: 41px;
+  opacity: 0.9;
   text-align: left;
-  font-size: 20px;
   color: #342e37;
   font-family: Montserrat;
 }
-.welcomeSection {
-margin-top: 80px;
-  border-radius: 12px;
-  flex-direction: row;
-  padding: 57px 113px;
+.articleContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  gap: 10px;
   justify-content: center;
+ 
 }
 @media screen and (max-width: 1200px) {
-  .becomeVolunteerFrameArticle {
+  /* .becomeVolunteerFrameArticle {
     width: 100%;
     padding-top: 80px;
     padding-bottom: 80px;
     box-sizing: border-box;
-
-  }
-  .button1 {
+    
+  } */
+  /* .button1 {
     margin-top: 400px;
-  }
-  .getHelpFrameArticle {
+  } */
+  /* .getHelpFrameArticle {
     margin-top: 40px;
     background-position: center;
     flex: unset;
-    /* align-self: stretch; */
+    
+  
+  } */
+}
+@media screen and (max-width: 768px) {
+  .becomeVolunteerFrameArticle,
+  .getHelpFrameArticle {
+    width: 70%;
+  }
+  .getHelpFrameArticle {
+    /* gap: 10px; */
+    width: 72%;
+    padding-top: 30px;
+  
+  }
+  .frameDiv{
+    /* border: 4px solid rgb(0, 255, 174); */
+    margin-bottom: 0;
   }
   .welcomeSection {
     flex-direction: column;
-  }
-}
-@media screen and (max-width: 768px) {
-  .becomeVolunteerFrameArticle {
-    padding-left: 40px;
-    padding-right: 40px;
-    box-sizing: border-box;
+    margin-top: 10%;
   }
   .button1 {
-    margin-top: 300px;
+    margin: 150px 0px 30px 0px;
   }
   .welcomeSection {
     padding-left: 30px;
     padding-right: 30px;
     box-sizing: border-box;
+
+  }
+}
+@media screen and (max-width: 500px) {
+  .becomeVolunteerFrameArticle,
+  .getHelpFrameArticle {
+    width: 100%;
+  }
+  .getHelpFrameArticle {
+    gap: 2%;
+    /* border: 3px solid goldenrod; */
   }
 }

@@ -28,7 +28,7 @@ export const HeroSection = () => {
           <div className={styles.searchOptionsDiv}>
             <ul className={styles.findOptions}>
 
-<li className={styles.find}> <a className={styles.links}>Accommodations</a>  <span className={styles.icons}> <SiHomebridge/></span></li>
+<li className={styles.find}> <a className={styles.links}> Accommodations</a>  <span className={styles.icons}> <SiHomebridge/></span></li>
 <li className={styles.find}> <a className={styles.links} >Helpers</a>  <span className={styles.icons}> <FaHandsHelping/></span></li>
 <li className={styles.find}> <a className={styles.links} > Jobs</a> <span className={styles.icons}><MdConnectWithoutContact/></span></li>
 <li className={styles.find}> <a className={styles.links} > Institutions</a> <span className={styles.icons}> <MdOutlineTravelExplore/></span></li>

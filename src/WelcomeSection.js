@@ -23,10 +23,12 @@ export const WelcomeSection = () => {
   return (
     <>
       <section className={styles.welcomeSection}>
+        <div className={styles.articleContainer}>
+
+        
         <article className={styles.becomeVolunteerFrameArticle}>
           <h1 className={styles.welcomeH1}>
-            <p className={styles.welcomeP}>Welcome,</p>
-            <p className={styles.registerHereP}>Register Here!</p>
+            <p className={styles.welcomePH}>Welcome! <br/>Register Here!</p>
           </h1>
           <article className={styles.cardBecomeVolunteerArticle}>
             <div className={styles.offerAccommodationAndBecome}>
@@ -65,6 +67,7 @@ export const WelcomeSection = () => {
             <b className={styles.becomeAVolunteer}>Get Help</b>
           </button>
         </article>
+        </div>
       </section>
       {isSignUpPopUp1Open && (
         <PortalPopup

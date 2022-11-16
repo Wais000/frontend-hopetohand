@@ -29,6 +29,7 @@
 .rightimageIcon {
   position: relative;
   flex-shrink: 0;
+  border: 3px solid orangered;
 }
 .outlineDiv {
   border-radius: 3px;
@@ -110,13 +111,14 @@
   color: #342e37;
   font-family: Montserrat;
 }
-.blogSection,
+
 .cardbottomDiv2,
 .cardsMain {
-  /* align-self: stretch; */
+
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  border: 2px solid #484848;
 }
 .cardbottomDiv2 {
   align-self: stretch;
@@ -127,15 +129,17 @@
   box-sizing: border-box;
   /* gap: 6px; */
 }
-.blogSection,
+/* .blogSection, */
 .cardsMain {
   flex-direction: row;
   /* gap: 3px; */
 }
 .blogSection {
-  /* background-color: #fff; */
+
+  /* align-items: flex-start;
+  justify-content: flex-start; */
+/* border: 2px solid royalblue; */
   flex-direction: column;
-  /* padding: 61px 83px; */
   box-sizing: border-box;
   gap: 41px;
   opacity: 0.9;
@@ -143,6 +147,9 @@
   font-size: 30px;
   color: #342e37;
   font-family: Montserrat;
+  width: 100%;
+
+
 }
  .container{
   display: flex;
