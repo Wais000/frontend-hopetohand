@@ -9,7 +9,7 @@
   height: 72.17px;
   overflow: hidden;
   margin-bottom: -3px;
-  /* border: 2px solid red; */
+
 }
 .logoTitleB {
   display: inline-block;
@@ -155,13 +155,14 @@
   display: flex;
   align-items: center;
   width: 50px;
+  border: 2px solid red; 
 }
 .buttonSignIn,
 .rectangleDiv {
   border-radius: 23px;
   background-color: #fff;
   height: 46px;
-  /* border: 2px solid red; */
+  border: 2px solid red; 
   
 }
 .buttonSignIn {
@@ -172,6 +173,7 @@
   width: 102px;
   flex-shrink: 0;
   overflow: hidden;
+  border: 2px solid red; 
 }
 .rectangleDiv {
   position: absolute;
@@ -214,14 +216,14 @@
   justify-content: flex-start;
 }
 .mainCTADiv {
-  width: 460px;
+  
   flex-shrink: 0;
   padding: 0 38px 0 0;
   box-sizing: border-box;
-  justify-content: flex-end;
+  justify-content: space-around;
   gap: 20px;
   margin-right: 50px;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 .frameDiv,
 .mainCTADiv,
@@ -235,11 +237,12 @@
   gap: 21px;
 }
 .mainHeader {
-  align-self: stretch;
+  /* align-self: stretch; */
   background-color: #ead49c;
   padding: 11px 0 11px 93px;
   box-sizing: border-box;
   justify-content: space-between;
+  width: 100%;
 
 }
 @media screen and (min-width: 1200px) {
@@ -258,6 +261,7 @@
     padding-left: 30px;
     padding-right: 30px;
     box-sizing: border-box;
+    width: 100%;
   }
   .button{
     display: none;
@@ -281,6 +285,8 @@
     padding-left: 20px;
     padding-right: 20px;
     box-sizing: border-box;
+    width: 100%;
+    border: 2px solid red;
   }
 
 }
