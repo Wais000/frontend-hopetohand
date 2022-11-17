@@ -64,7 +64,7 @@ export const ProfileSection = () => {
               </h5>
               <FormControl
                 className={styles.inputFormControl}
-                sx={{ width: 307 }}
+                sx={{ width: 280 }}
                 variant="outlined"
               >
                 <InputLabel className={styles.subMenu} color="secondary">Select Here</InputLabel>
@@ -83,8 +83,10 @@ export const ProfileSection = () => {
               </FormControl>
             </div>
             <div className={styles.logoDiv}>
-              <b className={styles.logoTitleB}>HOPE2HAND</b>
+              
+             
               <img className={styles.logoMainIcon} alt="" src="logomain7.svg" />
+            
             </div>
           </div>
         

@@ -1,111 +1,71 @@
 .imgSeekerFormIcon {
-  position: relative;
-  border-radius: 12px 0 0 12px;
-  width: 320px;
-  height: 314px;
-  flex-shrink: 0;
-  padding-bottom: 1%;
-  object-fit: cover;
+width: 25%;
+height: 11%;
+
 }
-/* .ImgDiv{
-  width: 500px;
-  border-radius: 12px 0 0 12px;
 
-  flex-shrink: 0;
-  object-fit: cover;
-
-
-} */
 .whatAreYouLookingFor {
-  margin: 0;
-  font-weight: 600;
-  position: relative;
-  font-size: 20px;
-  font-family: Montserrat;
-  color: #484848;
-  text-align: left;
-  display: inline-block;
+
 }
 .inputFormControl {
-  position: relative;
+ 
   background-color: white;
   border-radius: 12px 12px 12px 12px;
-  height: 55px;
+
 }
 .frameDiv1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 41px;
+width: 70%;
+display: flex;
+flex-direction: column;
+/* align-items: center; */
+justify-content: center;
+padding-left: 40px;
+gap: 8%;
 }
 .logoTitleB {
-  position: absolute;
-  width: 100%;
-  right: 0;
-  bottom: -6px;
-  left: 3px;
-  font-size: 13px;
-  display: inline-block;
-  font-family: Montserrat;
-  color: #342E37;
-  text-align: center;
-  height: 18.26px;
+
   
 }
 .logoMainIcon {
-  position: absolute;
-  top: 0;
-  left: 14.78px;
-  width: 62.61px;
-  height: 72.17px;
-  overflow: hidden;
+width: 70%;
   
 }
 .logoDiv {
-  position: relative;
-  width: 92.17px;
-  height: 80px;
-  flex-shrink: 0;
+  align-items: center;
+  display: flex;
+flex-direction: column;
+  width: 30%;
+
+  
 }
 .frameDiv {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-start;
-  gap: 94px;
+width: 100%;
+display: flex;
+
+
+ 
 }
-.formRegistrationBgArticle,
-.profileSectionForm {
-  height: 314px;
-  display: flex;
-  justify-content: flex-start;
-}
+
 
 .formRegistrationBgArticle {
-  flex: 1;
-  border-radius: 0 12px 12px 0;
+width: 75%;
+display: flex;
   background-color: #EAD49C;
-  flex-direction: column;
-  padding: 77px 61px;
-  box-sizing: border-box;
-  align-items: center;
-}
-.profileSectionForm {
-  border-radius: 0 0 0 12px;
-  box-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
-  width: 942px;
-  flex-shrink: 0;
-  flex-direction: row;
-  align-items: flex-start;
+align-items: center;
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
 
 }
+
 .formContainer{
-  width: 100%;
-  /* border: 2px solid blueviolet; */
+width: 100%;
+
 }
 .profileSectionForm{
+  display: flex;
+  width: 50%;
   margin: 0 auto;
+
 }
 .accommodationDiv{
   width: 100%;
@@ -142,8 +102,6 @@ img{
   ;
 }
 .accommodationMainContainer{
-  /* background-color: #ead49c; */
-  /* box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.195); */
   margin: 10px auto;
   width: 80%;
 
@@ -379,15 +337,58 @@ font-style: unset;
   .detailsContainer{
     width:100%;
   }
+.logoDiv{display: none;
+}
+.frameDiv1{
+  width: 100%;
+   align-items: center;
 
+}
+.inputFormControl{
+  width: 260px;
+  /* height: 30px; */
+
+}
 
 }
 
 
 @media screen and (max-width: 992px) {
-  .formRegistrationBgArticle{
+  /* .formRegistrationBgArticle{
     width:80%;
+  } */
+  .profileSectionForm{
+    width: 80%;
   }
+  .formContainer{
+    margin-bottom: 5%;
+  }
+}
+/* @media screen and (max-width:500px){
+  .frameDiv1{
+    padding: 5px;
+  }
+} */
+@media screen and (max-width:500px){
+  .profileSectionForm, .frameDiv, .formRegistrationBgArticle{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .frameDiv1{
+    border-radius: 10px;
+  }
+  .detailsContainer{
+    padding: 4%;
+  }
+.inputFormControl{
+  width: 80%;
+}
+  .formRegistrationBgArticle{
+    padding: 5% 0% 5% 0%;
+    border-radius: 10px;
+  }
+  .imgSeekerFormIcon{display: none;}
 }
 
 
