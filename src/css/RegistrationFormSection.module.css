@@ -6,7 +6,7 @@
   font-size: inherit;
   font-family: inherit;
   display: inline-block;
-  height: 82px;
+  /* height: 82px; */
   flex-shrink: 0;
   text-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
 }
@@ -35,10 +35,12 @@
   justify-content: flex-start;
 }
 .descriptionDiv {
-  height: 352px;
+  /* height: 352px; */
   flex-shrink: 0;
   padding: 57px 76px 0;
   align-items: center;
+  border: 2px solid red;
+  padding-bottom: 10px;
 }
 .registrationFormSection {
   padding: 0 0 34px;
