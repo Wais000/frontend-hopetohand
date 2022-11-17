@@ -309,4 +309,15 @@ font-size: 40px;
     padding-right: 20px;
     box-sizing: border-box;
   }
+  .footermainSection{
+    padding-left: 25px;
+    /* border: 2px solid red; */
+    margin: 0;
+  }
+  .logoIcon{
+   display: none;
+   
+    
+  }
+
 }
