@@ -170,6 +170,9 @@ align-content: center;
   text-shadow: 4px 0 2px rgba(0, 0, 0, 0.58);
   mix-blend-mode: lighten;
 }
+.searchHeadersArticle li a{
+  font-size: 30%;
+}
 
 @media screen and (max-width: 1200px) {
   .searchHeadersArticle {
@@ -194,6 +197,9 @@ align-content: center;
 }
 .searchHeadersArticle li span{
   font-size: 24px;
+}
+.searchOptionsDiv{
+  width: 50%;
 }
  
 } 

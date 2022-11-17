@@ -8,14 +8,14 @@
 }
 .cityGuideEventsTips,
 .titleH3 {
-  margin-top: 7%;
+  margin-top: 1.5%;
   font-size: inherit;
   font-family: inherit;
 }
 .cityGuideEventsTips {
   font-weight: 700;
   position: relative;
-  line-height: 48px;
+  /* line-height: 48px; */
   display: inline-block;
 }
 .titleH3 {
@@ -29,13 +29,14 @@
 .rightimageIcon {
   position: relative;
   flex-shrink: 0;
-  border: 3px solid orangered;
+  /* border: 3px solid orangered; */
 }
 .outlineDiv {
   border-radius: 3px;
   background-color: #484848;
   width: 140px;
   height: 6px;
+  display: none;
 }
 .rightimageIcon {
   align-self: stretch;

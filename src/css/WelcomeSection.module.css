@@ -163,7 +163,7 @@
   /* border: 2px solid red; */
 }
 .welcomeSection {
-  margin: 2% auto;
+  margin: 5% auto;
   flex-direction: column;
   box-sizing: border-box;
   gap: 41px;
