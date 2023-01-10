@@ -51,8 +51,7 @@ export const BurgerMenuPopUp = ({ onClose }) => {
           className={styles.findSupportButton}
           onClick={onPartnersButtonClick}
         >
-          Partners
-        </button>
+Institutions        </button>
         <button className={styles.aboutUsButton} onClick={onAboutUsButtonClick}>
           About Us
         </button>
