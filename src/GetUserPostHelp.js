@@ -63,7 +63,7 @@ const GetUserPostHelp = () => {
 
     try {
       const response = await fetch(
-        `https://backend-hopetohand.onrender.com//updatehelp/${editHelp._id}`,
+        `https://backend-hopetohand.onrender.com/updatehelp/${editHelp._id}`,
         {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },
