@@ -21,7 +21,7 @@ export const ContactFormSection = () => {
 
    const data = {name, phoneNumber, companyName, email, message}
    console.log(data)
-   await axios.post("https://backend-hopetohand.onrender.com//contactform", data)
+   await axios.post("https://backend-hopetohand.onrender.com/contactform", data)
    setName("");
    setPhoneNumber("");
     setCompanyName("");

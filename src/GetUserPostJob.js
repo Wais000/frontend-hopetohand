@@ -63,7 +63,7 @@ const GetUserPostJob = () => {
 
     try {
       const response = await fetch(
-        `https://backend-hopetohand.onrender.com//updatejob/${editJob._id}`,
+        `https://backend-hopetohand.onrender.com/updatejob/${editJob._id}`,
         {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },

@@ -27,21 +27,21 @@ export const ProfileSection = () => {
 
 
   const getRequestHandler = async () => {
-    const response = await axios.get("https://backend-hopetohand.onrender.com//getaccomodations");
+    const response = await axios.get("https://backend-hopetohand.onrender.com/getaccomodations");
     console.log(response.data.data);
     setDetails(response.data.data);
     setRequest("GET");
   };
 
   const getRequestHandlerHelp = async () => {
-    const response = await axios.get("https://backend-hopetohand.onrender.com//gethelper");
+    const response = await axios.get("https://backend-hopetohand.onrender.com/gethelper");
     console.log(response.data.data);
     setDetailsHelp(response.data.data);
     setRequest("GET");
   };
 
   const getRequestHandlerJob = async () => {
-    const response = await axios.get("https://backend-hopetohand.onrender.com//getjob");
+    const response = await axios.get("https://backend-hopetohand.onrender.com/getjob");
     console.log(response.data.data);
     setDetailsJob(response.data.data);
     setRequest("GET");
