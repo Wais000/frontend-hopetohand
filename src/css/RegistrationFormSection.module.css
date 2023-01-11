@@ -50,3 +50,13 @@
   color: #706b5d;
   font-family: Montserrat;
 }
+
+@media screen and (max-width: 768px) {
+  .youWantTo{
+    font-size: 15px;
+  }
+  .findSupportH2{
+    font-size: 25px;
+    padding-bottom: 3%;
+  }
+}
