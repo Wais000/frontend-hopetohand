@@ -123,7 +123,7 @@ export const MainHeader = () => {
           </a>
           <div className={styles.mainCTADiv}>
             <button className={styles.button} onClick={openSignUpPopUp}>
-              <b className={styles.becomeAVolunteer}>Become A Volunteer</b>
+            Become A Volunteer
             </button>
             {user ? <button  className={styles.buttonSignIn} onClick={handleLogout}>
               <div className={styles.bxbxsUserCircleDiv}>
