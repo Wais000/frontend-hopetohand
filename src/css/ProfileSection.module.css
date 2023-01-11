@@ -422,4 +422,8 @@ font-style: unset;
 .ImgDiv{width: 80%;}
 }
 
+@media screen and (max-width: 768px){
+  .ImgDiv{width: 80%;
+}
+}
 
