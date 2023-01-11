@@ -1200,5 +1200,6 @@ padding: 10PX;
     width: 100%;
     flex-direction: row;
 padding: 6% 4% 6% 4%;
+justify-content: center;
   }
 }
