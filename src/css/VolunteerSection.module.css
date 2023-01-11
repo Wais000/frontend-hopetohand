@@ -509,7 +509,7 @@ border: 3px solid orange;
   font-size: 30px;
   color: #706b5d;
   font-family: Montserrat;
-  border: 3px solid royalblue;
+  /* border: 3px solid royalblue; */
 }
 .frameDiv,
 .volunteerSection {
