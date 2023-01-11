@@ -367,8 +367,9 @@ font-style: unset;
 @media screen and (max-width: 768px){
   .ImgContainer{
     flex-direction: row;
+    border: 2px solid red;
   }
-  .ImgDiv{width: 80%;
+  .ImgDiv{width: 100%;
 }
 }
 @media screen and (max-width:500px){
