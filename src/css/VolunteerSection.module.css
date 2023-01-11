@@ -1127,7 +1127,7 @@ border: 3px solid orange;
 .checkBoxBox {
   width: 20px;
   padding-top: 10px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
 }
 .formButton {
@@ -1196,7 +1196,7 @@ padding: 10PX;
 
 @media screen and (max-width: 768px) {
   .volunteerSection{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     flex-direction: row;
 padding: 10% 3% 6% 3%;
