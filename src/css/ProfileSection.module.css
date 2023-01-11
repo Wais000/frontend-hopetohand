@@ -364,11 +364,13 @@ font-style: unset;
     margin-bottom: 5%;
   }
 }
-/* @media screen and (max-width:500px){
-  .frameDiv1{
-    padding: 5px;
+@media screen and (max-width: 768px){
+  .ImgContainer{
+    flex-direction: row;
   }
-} */
+  .ImgDiv{width: 80%;
+}
+}
 @media screen and (max-width:500px){
   .profileSectionForm, .frameDiv, .formRegistrationBgArticle{
     width: 90%;
@@ -422,8 +424,5 @@ font-style: unset;
 .ImgDiv{width: 80%;}
 }
 
-@media screen and (max-width: 768px){
-  .ImgDiv{width: 80%;
-}
-}
+
 
