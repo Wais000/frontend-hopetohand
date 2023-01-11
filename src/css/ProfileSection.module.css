@@ -400,6 +400,17 @@ font-style: unset;
   .Details{
     width: 100%;
   }
+  .whatAreYouLookingFor{
+    font-size: 16px;
+    color: #706b5d;
+    padding-bottom: 3%;
+
+  }
+  .frameDiv{
+    justify-content: center;
+    /* border: 2px solid red; */
+    padding-right: 5%;
+  }
 
 }
 
