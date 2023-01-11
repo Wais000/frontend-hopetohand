@@ -416,7 +416,10 @@ font-style: unset;
   .profileSectionForm{
     margin-bottom: 8%;
   }
-
+.ImgContainer{
+  flex-direction: row;
+}
+.ImgDiv{width: 80%;}
 }
 
 
