@@ -389,6 +389,18 @@ font-style: unset;
     border-radius: 10px;
   }
   .imgSeekerFormIcon{display: none;}
+  .accommodationMainContainer{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .detailsContainer{
+    width: 100%;
+  }
+  .Details{
+    width: 100%;
+  }
+
 }
 
 

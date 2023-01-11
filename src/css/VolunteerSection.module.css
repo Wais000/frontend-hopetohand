@@ -1199,7 +1199,10 @@ padding: 10PX;
     border: 2px solid red;
     width: 100%;
     flex-direction: row;
-padding: 6% 4% 6% 4%;
+padding: 10% 4% 6% 12%;
 justify-content: center;
+  }
+  .weWelcomeYouInOurEndevour{
+    font-size: 14px;
   }
 }
