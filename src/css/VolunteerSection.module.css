@@ -92,7 +92,7 @@ border: none;
   text-align: center;
   color: #9a9a9a;
   padding: 0;
-
+border: 3px solid orange;
 }
 .frameDiv1 {
   align-self: stretch;
@@ -101,7 +101,7 @@ border: none;
   padding: 6px 1px 0px ;
   box-sizing: border-box;
   gap: 57px;
-  ;
+  border: 3px solid orange;
 
 }
 
@@ -509,6 +509,7 @@ border: none;
   font-size: 30px;
   color: #706b5d;
   font-family: Montserrat;
+  border: 3px solid royalblue;
 }
 .frameDiv,
 .volunteerSection {
@@ -1187,5 +1188,17 @@ padding: 10PX;
   .helpForm {
     width: 100%;
   }
+  .userVolunteerAboutSectionArticle{
+    border-radius: 12px 12px 12px 12px;
+    margin: 0px;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .volunteerSection{
+    border: 2px solid red;
+    width: 100%;
+    flex-direction: row;
+padding: 6% 4% 6% 4%;
+  }
+}

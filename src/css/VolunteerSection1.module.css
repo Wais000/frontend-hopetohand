@@ -130,3 +130,28 @@
   width: 65%;
   border: 3px solid orchid;
 }
+
+
+@media screen and (max-width: 912px) {
+  .userFrameArticle {
+    display: none;
+  }
+  .accommodationForm,
+  .jobForm,
+  .helpForm {
+    width: 100%;
+  }
+  .userVolunteerAboutSectionArticle{
+    border-radius: 12px 12px 12px 12px;
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .volunteerSection{
+    border: 2px solid red;
+    width: 100%;
+    justify-content: center;
+  
+  }
+}
