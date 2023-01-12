@@ -489,3 +489,16 @@ margin: 3% auto;
   border-right: 26px solid #908DB9;
   border-bottom: 13px solid transparent;
 }
+
+@media screen and (max-width:500px){
+  .geoMapSectionContainer{
+    width: 100%;
+    padding: 5px;
+    margin: 0px;
+  }
+  .formHeader,
+  .formHeader2{
+    width: 90%;
+    font-size: 15px;
+  }
+}

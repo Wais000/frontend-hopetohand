@@ -325,6 +325,7 @@
     object-fit: cover;
     height:70px;
   }
+
 }
 
 
@@ -345,5 +346,16 @@
     object-fit: cover;
     height:70px;
 
+  }
+  .AboutTeamSection{
+    border: 2px solid royalblue;
+  }
+  .whatToDo,
+  .theWebDeveloperTeamBehind{
+    font-size: 25px;
+    border: 2px solid gray;
+  }
+  .theWebDeveloperTeamBehind{
+    color: red;
   }
 }
