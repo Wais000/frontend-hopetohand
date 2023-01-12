@@ -262,3 +262,29 @@
   max-height: 90%;
   overflow: auto;
 }
+@media screen and (max-width:500px){
+  .signInPopUpDiv{
+    /* border: 2px solid red; */
+    /* overflow: hidden; */
+    width: 100%;
+
+  }
+  .loginWholeArticle{
+    /* border: 2px solid red; */
+    width: 100%;
+  }
+  .loginSignupLinkDiv{
+    /* border: 2px solid rgb(0, 21, 255); */
+  left: 45px;
+    width: 60%;
+
+  }
+  .dontHaveAccount{
+   
+  }
+  .closeButton{
+    /* border: 2px solid red; */
+    width: 47px;
+    height: 47px;
+  }
+}
