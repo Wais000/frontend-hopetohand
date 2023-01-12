@@ -14,9 +14,7 @@ export const RegistrationFormSection = () => {
           <p className={styles.youWantTo}>
           We will try to find you the help needed as soon as possible.
           </p>
-          {/* <p className={styles.afterYouRegister}>
-          We will try to find you the help needed as soon as possible.
-          </p> */}
+
         </p>
       </div>
     </section>

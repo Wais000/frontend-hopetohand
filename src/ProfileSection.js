@@ -83,13 +83,10 @@ export const ProfileSection = () => {
               </FormControl>
             </div>
             <div className={styles.logoDiv}>
-              
-             
               <img className={styles.logoMainIcon} alt="" src="logomain7.svg" />
-            
             </div>
           </div>
-        
+
         </article>
 
 
@@ -107,9 +104,6 @@ export const ProfileSection = () => {
               {request
                 ? details?.map((value) => {
                   return (
-                    //  <div className="img_card" >
-                    //     <div className="main_container" key={value._id}>
-                    //       <div className="img_acc" >   
                     <div className={styles.Container} key={value._id}>
                       <div className={styles.detailsContainer}>
                         <div className={styles.Details}>

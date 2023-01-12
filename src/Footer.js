@@ -78,9 +78,8 @@ export const Footer = () => {
           © 2022 Hope2Hand | All rights reserved
         </p>
         <p className={styles.createdWithLoveByTheThird}>
-          <span>{`Created `}</span>
-          <span className={styles.withSpan}>with</span>
-          <span> love by The Third Team</span>
+          <span className={styles.withSpan}>Created with love by The Third Team</span>
+
         </p>
       </address>
     </footer>

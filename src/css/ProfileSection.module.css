@@ -136,8 +136,6 @@ img{
   background-color: #fdf4dd;
   display: flex;
   flex-direction: column;
-  /* background-color: #f5eacd; */
-  /* border: 2px solid rebeccapurple; */
   margin-bottom: 30px;
   width: 90%;
   border-radius: 8px;
@@ -147,7 +145,6 @@ img{
 }
 .detailsContainer
 {
-  /* border: 2px solid rgb(18, 175, 52); */
   display: flex;
   background-color: #ead49c;
   flex-wrap: wrap;
@@ -245,10 +242,7 @@ font-style: unset;
   width: 64px;
   height: 24px;
 }
-/* .conteiner_img{
-  position: absolute;
-  bottom: 80px;
-} */
+
 
 .submitBtnButton {
  justify-content: center;
@@ -313,22 +307,8 @@ font-style: unset;
   }
 }
 
-/* .bottomDelete{
-  position: relative;
-
-
-} */
-/* .submitDiv{
-  position: absolute;
-  right: 10px;
-  bottom: 5px;
-
-} */
-
 
 @media screen and (max-width: 1200px) {
-
-
   .Details,
   .contactPersonDetails,
   .Available {
@@ -346,7 +326,6 @@ font-style: unset;
 }
 .inputFormControl{
   width: 260px;
-  /* height: 30px; */
 
 }
 
@@ -354,9 +333,7 @@ font-style: unset;
 
 
 @media screen and (max-width: 992px) {
-  /* .formRegistrationBgArticle{
-    width:80%;
-  } */
+
   .profileSectionForm{
     width: 80%;
   }
@@ -364,14 +341,7 @@ font-style: unset;
     margin-bottom: 5%;
   }
 }
-/* @media screen and (max-width: 768px){
-  .ImgContainer{
-    flex-direction: row;
-    border: 2px solid red;
-  }
-  .ImgDiv{width: 100%;
-} */
-}
+
 @media screen and (max-width:500px){
   .profileSectionForm, .frameDiv, .formRegistrationBgArticle{
     width: 90%;
@@ -411,10 +381,8 @@ font-style: unset;
   }
   .frameDiv{
     justify-content: center;
-    /* border: 2px solid red; */
     padding-right: 5%;
- 
-   
+
   }
   .profileSectionForm{
     margin-bottom: 8%;

@@ -1140,8 +1140,6 @@ border: 3px solid orange;
   border: none;
   cursor: pointer;
   background-color: #908db9;
- 
-  /* border: 2px solid red; */
 }
 .accommodationTitles,
 .jobTitles,
@@ -1154,7 +1152,6 @@ border: 3px solid orange;
   background-color: transparent;
 }
 
-
 .formFileButton {
   margin-top: 30px;
   width: 400px;
@@ -1162,8 +1159,6 @@ border: 3px solid orange;
 }
 .avatarSection{
   margin-top: 20px;
-  /* border: 2px solid red; */
-  /* width: 50%; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -1174,7 +1169,6 @@ width: 200px;
 }
 .avatarInput{
   font-size: 12px;
-/* border: 2px solid orange; */
 padding: 10PX;
 
 }
@@ -1195,8 +1189,7 @@ padding: 10PX;
 }
 
 @media screen and (max-width: 768px) {
-  .volunteerSection{
-    /* border: 2px solid red; */
+  .volunteerSection{ 
     width: 100%;
     flex-direction: row;
 padding: 10% 3% 6% 3%;

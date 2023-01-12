@@ -304,10 +304,12 @@ font-size: 40px;
   }
 }
 @media screen and (max-width: 428px) {
-  .copyrightsAddress {
-    padding-left: 10px;
-    padding-right: 20px;
+  .copyrightsAddress,
+  .withSpan {
+    padding-left: 5%;
+    padding-right:5%;
     box-sizing: border-box;
+    font-size: 13px;
   }
   .footermainSection{
     padding-left: 15px;
