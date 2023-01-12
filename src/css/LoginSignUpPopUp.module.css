@@ -243,3 +243,19 @@
   font-size: 22.5px;
 }
 
+@media screen and (max-width:500px){
+  .signUpPopUpDiv{
+    /* border: 2px solid rgb(0, 229, 255); */
+    /* overflow: hidden; */
+    width: 100%;
+
+  }
+  .signupFrameDiv{
+    padding: 0px;
+    width: 80%;
+left: 10%;  
+  /* border: 3px solid orangered; */
+
+  }
+
+}

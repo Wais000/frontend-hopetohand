@@ -269,6 +269,9 @@
     width: 100%;
 
   }
+  .signupFrameDiv{
+    border: 3px solid orangered;
+  }
   .loginWholeArticle{
     /* border: 2px solid red; */
     width: 100%;
