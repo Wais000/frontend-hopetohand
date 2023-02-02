@@ -270,7 +270,7 @@
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  border: 2px solid red;
+  border: 6px solid red;
 }
 
 /* volunteerSection */
@@ -342,7 +342,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  border: 2px solid red;
+  border: 5px solid red;
 }
 .frameDiv1 {
   align-self: stretch;
@@ -416,10 +416,13 @@
   display: flex;
   flex-wrap: wrap;
   
-  border: 2px solid red;
+  border:8px solid red;
 }
 .contactRight,
 .contactLeft{
   /* padding-top: 1%; */
   border: 2px solid orangered;
 }
+
+
+

@@ -243,6 +243,18 @@
   justify-content: space-between;
 /* border: 2px solid red; */
 }
+.mainCTADiv>.button{
+  /* background-color: rgb(0, 82, 88); */
+  padding: 10px 2px 10px 2px;
+  width: 60%;
+  font-weight: 500;
+  font-size: 15px;
+  display: inline-block;
+  font-family: Montserrat;
+  color: #fff;
+  background-color: #908db9;
+
+}
 @media screen and (max-width: 1535px) {
   .mainHeader{
     width: 100%;

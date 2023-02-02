@@ -24,8 +24,8 @@
   padding: 21px 29px;
   background-color: #908db9;
   position: absolute;
-  top: 527px;
-  left: 152px;
+  /* top: 527px;
+  left: 152px; */
   border-radius: 40px;
   width: 220px;
   display: flex;
@@ -48,6 +48,7 @@
   font-size: 16px;
   color: #342e37;
   font-family: Montserrat;
+  border: 3px solid darkcyan;
 }
 .donateNowSection {
   align-self: stretch;
@@ -57,4 +58,21 @@
   box-sizing: border-box;
   align-items: flex-start;
   justify-content: center;
+  border: 2px solid red;
+}
+@media screen and (max-width: 600){
+  .donateNowSection{
+    width: 100%;
+  }
+  .bgArticle{
+    background-size: contain;
+
+    position: relative;
+    width: 124px;
+    height: 168px;
+  border: 3px solid rgb(44, 0, 139);
+  }
+  .youWantToDonateAndHelpOu{
+    color: red;
+  }
 }

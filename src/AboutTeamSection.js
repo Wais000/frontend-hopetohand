@@ -35,7 +35,7 @@ const AboutTeamSection = () => {
       ref={reference}
       id="AboutTeamSection"
     >
-      <h3 className={styles.whatToDo}>{`What do we do? `}</h3>
+      <h3 className={styles.whatToDo}>What do we do?</h3>
       <p className={styles.AboutText}>
         We live in a troublesome world with always new humanitarian crisis and
         impending emergencies, but at the core of the most intrinsic of human

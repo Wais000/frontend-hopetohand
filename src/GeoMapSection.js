@@ -47,7 +47,7 @@ const navigateToLists=(e)=>{
         <iframe className={styles.freeServiceMap} src="https://www.google.com/maps/d/u/0/embed?mid=1JK_78DbC8mjmwDwqA7maE32YHtg33LQ&ehbc=2E312F" width="640" height="480"></iframe>
        
       </div>
-      <p className={styles.formHeader} id="contactContainer"> Get some help with finding any free and all kind of medical services and insurances!</p> 
+      <p className={styles.formHeader2} id="contactContainer"> Get some help with finding any free and all kind of medical services and insurances!</p> 
 <div className={styles.listSelect}>
 
 
