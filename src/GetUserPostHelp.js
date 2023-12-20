@@ -8,7 +8,7 @@ const GetUserPostHelp = () => {
   const [editMood, setEditMood] = useState(false);
   const [editHelp, setEditHelp] = useState(null);
 
-  const API = axios.create({ baseURL: "https://backend-hopetohand.onrender.com/" });
+  const API = axios.create({ baseURL: "https://backend-hopetohand.onrender.com/volunteerformspage/posthelp" });
 
   API.interceptors.request.use((req) => {
     if (localStorage.getItem("profile")) {

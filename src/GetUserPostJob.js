@@ -9,7 +9,7 @@ const GetUserPostJob = () => {
   const [editMood, setEditMood] = useState(false);
   const [editJob, setEditJob] = useState(null);
 
-  const API = axios.create({ baseURL: "https://backend-hopetohand.onrender.com/" });
+  const API = axios.create({ baseURL: "https://backend-hopetohand.onrender.com/volunteerformspage/postjob" });
 
   API.interceptors.request.use((req) => {
     if (localStorage.getItem("profile")) {
