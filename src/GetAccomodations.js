@@ -13,7 +13,7 @@ const GetAccomodations = () => {
 
 
   const getRequestHandler = async () => {
-    const response = await axios.get("https://backend-hopetohand.onrender.com/getaccomodations");
+    const response = await axios.get("https://busy-duck-wear.cyclic.app/getaccomodations");
     console.log(response.data.data);
     setDetails(response.data.data);
     setRequest("GET");

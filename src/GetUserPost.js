@@ -8,7 +8,7 @@ const GetUserPost = () => {
   const [editMood, setEditMood] = useState(false);
   const [editAccommodation, setEditAccommodation] = useState(null);
 
-  const API = axios.create({ baseURL: "https://backend-hopetohand.onrender.com/volunteerformspage/postaccommodation" });
+  const API = axios.create({ baseURL: "https://busy-duck-wear.cyclic.app/volunteerformspage/postaccommodation" });
 
   API.interceptors.request.use((req) => {
     if (localStorage.getItem("profile")) {
@@ -64,7 +64,7 @@ const GetUserPost = () => {
 
     try {
       const response = await fetch(
-        `https://backend-hopetohand.onrender.com/updateaccomodation/${editAccommodation._id}`,
+        `https://busy-duck-wear.cyclic.app/updateaccomodation/${editAccommodation._id}`,
         {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },

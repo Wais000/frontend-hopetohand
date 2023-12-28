@@ -8,7 +8,7 @@ const GetUserPostHelp = () => {
   const [editMood, setEditMood] = useState(false);
   const [editHelp, setEditHelp] = useState(null);
 
-  const API = axios.create({ baseURL: "https://backend-hopetohand.onrender.com/volunteerformspage/posthelp" });
+  const API = axios.create({ baseURL: "https://busy-duck-wear.cyclic.app/volunteerformspage/posthelp" });
 
   API.interceptors.request.use((req) => {
     if (localStorage.getItem("profile")) {
@@ -63,7 +63,7 @@ const GetUserPostHelp = () => {
 
     try {
       const response = await fetch(
-        `https://backend-hopetohand.onrender.com/updatehelp/${editHelp._id}`,
+        `https://busy-duck-wear.cyclic.app/updatehelp/${editHelp._id}`,
         {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },

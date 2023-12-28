@@ -9,7 +9,7 @@ const GetUserPostJob = () => {
   const [editMood, setEditMood] = useState(false);
   const [editJob, setEditJob] = useState(null);
 
-  const API = axios.create({ baseURL: "https://backend-hopetohand.onrender.com/volunteerformspage/postjob" });
+  const API = axios.create({ baseURL: "https://busy-duck-wear.cyclic.app/volunteerformspage/postjob" });
 
   API.interceptors.request.use((req) => {
     if (localStorage.getItem("profile")) {
@@ -63,7 +63,7 @@ const GetUserPostJob = () => {
 
     try {
       const response = await fetch(
-        `https://backend-hopetohand.onrender.com/updatejob/${editJob._id}`,
+        `https://busy-duck-wear.cyclic.app/updatejob/${editJob._id}`,
         {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },

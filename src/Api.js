@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
- const API = axios.create({ baseURL: "https://backend-hopetohand.onrender.com/" });
+ const API = axios.create({ baseURL: "https://busy-duck-wear.cyclic.app/" });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem("profile")) {

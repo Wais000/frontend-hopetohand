@@ -77,7 +77,7 @@ export const VolunteerSection = () => {
       available,
     };
 
-    const API = axios.create({ baseURL: "https://backend-hopetohand.onrender.com/" });
+    const API = axios.create({ baseURL: "https://busy-duck-wear.cyclic.app/" });
 
     API.interceptors.request.use((req) => {
       if (localStorage.getItem("profile")) {
@@ -119,7 +119,7 @@ export const VolunteerSection = () => {
       contactNumberHelp,
     };
 
-    const API = axios.create({ baseURL: "https://backend-hopetohand.onrender.com/" });
+    const API = axios.create({ baseURL: "https://busy-duck-wear.cyclic.app/" });
 
     API.interceptors.request.use((req) => {
       if (localStorage.getItem("profile")) {
@@ -160,7 +160,7 @@ export const VolunteerSection = () => {
       endDateJob,
     };
 
-    const API = axios.create({ baseURL: "https://backend-hopetohand.onrender.com/" });
+    const API = axios.create({ baseURL: "https://busy-duck-wear.cyclic.app/" });
 
     API.interceptors.request.use((req) => {
       if (localStorage.getItem("profile")) {
@@ -198,7 +198,7 @@ export const VolunteerSection = () => {
   const uploadAvatar = async (e) => {
     e.preventDefault();
     console.log("avatar");
-    const API = axios.create({ baseURL: "https://backend-hopetohand.onrender.com" });
+    const API = axios.create({ baseURL: "https://busy-duck-wear.cyclic.app" });
 
     API.interceptors.request.use((req) => {
       if (localStorage.getItem("profile")) {

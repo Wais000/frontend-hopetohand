@@ -30,7 +30,7 @@ export const LoginSignUpPopUp = ({ onClose }) => {
    
    
     const response = await axios.post(
-      "https://backend-hopetohand.onrender.com/signup",
+      "https://busy-duck-wear.cyclic.app/signup",
       data,
     );
     console.log(data);
